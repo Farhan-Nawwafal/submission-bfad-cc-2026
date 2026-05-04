@@ -5,10 +5,10 @@ import seaborn as sns
 
 sns.set_theme(style='dark')
 
-all_df = pd.read_csv('dashboard\main_data.csv')
+all_df = pd.read_csv('dashboard/main_data.csv')
 
 with st.sidebar:
-    st.image('dashboard\farhan.png', width=150)
+    st.image('dashboard/farhan.png', width=150)
     
     st.markdown("### Farhan Nawwafal Pramudia")
     st.caption("Data Science Enthusiast | 6th Semester Student")
